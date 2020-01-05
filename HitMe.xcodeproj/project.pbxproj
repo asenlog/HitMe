@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F97CBFF523C221CC0001BE09 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97CBFF423C221CB0001BE09 /* AboutView.swift */; };
 		F9A69A1A23BE870400C7F37F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A69A1923BE870400C7F37F /* AppDelegate.swift */; };
 		F9A69A1C23BE870400C7F37F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A69A1B23BE870400C7F37F /* SceneDelegate.swift */; };
 		F9A69A1E23BE870400C7F37F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A69A1D23BE870400C7F37F /* ContentView.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F97CBFF423C221CB0001BE09 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
 		F9A69A1623BE870400C7F37F /* HitMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HitMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9A69A1923BE870400C7F37F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F9A69A1B23BE870400C7F37F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,9 +58,10 @@
 		F9A69A1823BE870400C7F37F /* HitMe */ = {
 			isa = PBXGroup;
 			children = (
+				F9A69A1D23BE870400C7F37F /* ContentView.swift */,
+				F97CBFF423C221CB0001BE09 /* AboutView.swift */,
 				F9A69A1923BE870400C7F37F /* AppDelegate.swift */,
 				F9A69A1B23BE870400C7F37F /* SceneDelegate.swift */,
-				F9A69A1D23BE870400C7F37F /* ContentView.swift */,
 				F9A69A1F23BE870500C7F37F /* Assets.xcassets */,
 				F9A69A2423BE870500C7F37F /* LaunchScreen.storyboard */,
 				F9A69A2723BE870500C7F37F /* Info.plist */,
@@ -146,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F97CBFF523C221CC0001BE09 /* AboutView.swift in Sources */,
 				F9A69A1A23BE870400C7F37F /* AppDelegate.swift in Sources */,
 				F9A69A1C23BE870400C7F37F /* SceneDelegate.swift in Sources */,
 				F9A69A1E23BE870400C7F37F /* ContentView.swift in Sources */,
@@ -286,6 +290,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"HitMe/Preview Content\"";
+				DEVELOPMENT_TEAM = E7M6XL5T85;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = HitMe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -305,6 +310,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"HitMe/Preview Content\"";
+				DEVELOPMENT_TEAM = E7M6XL5T85;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = HitMe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
